@@ -1,10 +1,10 @@
-const express = require('express')
+import * as express from 'express'
+import * as firebaseRouter from './routes/firebase'
 
 const app = express()
 const port = 3000
 
-const {firebaseRouter} = require('./routes/firebase')
-
+app.use
 app.use(express.json())
 app.use(express.static('public')) // 기본 호스팅 경로.
 app.use('/firebase',firebaseRouter)
