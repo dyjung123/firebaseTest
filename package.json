@@ -18,7 +18,7 @@
   "homepage": "https://github.com/dyjung123/firebaseTest#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "firebase": "^6.5.0",
     "firebase-admin": "^8.4.0",
     "morgan": "^1.9.1",
